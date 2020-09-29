@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+button:focus, button:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+.wrapper {
+    font-family: 'Nunito', sans-serif;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, 1)), url(./assets/windRises2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    min-height: 100%;
+    background-position: center;
+    margin-bottom: 0px;
+    border-radius: 0;
+}
+
+.display-4{
+    text-shadow: 4px 4px rgba(0, 0, 0, .6);
+}
+
+.jumbotron p{
+    text-shadow: 2px 2px rgba(0, 0, 0, .6);
+}
+
+.site-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    height: 3em;
+    width: 15em;
+    background-color: transparent;
+    border: 1.5px solid whitesmoke;
+    color: white;
+    border-radius: 25px;
+    align-self: center;
+    transition: .3s;
+
+}
+
+.site-button:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .6);
+    text-decoration: none;
+}
+
+#rankingHeader {
+    text-shadow: 4px 4px rgba(0, 0, 0, .6);
+}
+
+#rankingList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    height: 100vh;
+    background-position: center;
+}
+
+#slideContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+#slide {
+    display: flex;
+    direction: column;
+    align-items: center;
+}
+
+#slideLeft {
+    align-self: center;
+}
+
+#slideRight{
+    align-self: center;
+}
+
+.displayImg {
+    height: 300px;
+    width: 525px;
+    box-shadow: 15px 15px 15px 15px rgba(0, 0, 0, .6);
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.displayImgLeft {
+    height: 150px;
+    width: 250px;
+    z-index: -1;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .6);
+    border-radius: 5px;
+}
+
+.displayImgRight {
+    height: 150px;
+    width: 250px;
+    z-index: -1;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .6);
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 1.25em;
+    text-align: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, .6);
+    max-width: 525px;
+    color: whitesmoke;
+}
+
+.score {
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 3px 3px rgba(0, 0, 0, .6);
+}
+
+#navBtns {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+#nextBtn {
+    font-size: 2em;
+    background-color: transparent;
+    border: 1.5px solid whitesmoke;
+    width: 50px;
+    color: white;
+    border-radius: 24px;
+    transition: .3s;
+}
+
+#nextBtn:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .6);
+}
+
+#previousBtn {
+    font-size: 2em;
+    background-color: transparent;
+    border: 1.5px solid whitesmoke;
+    width: 50px;
+    color: white;
+    border-radius: 24px;
+    transition: .3s;
+}
+
+#previousBtn:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .6);
+
+}
+
+#moreBtn {
+    font-size: 2em;
+    background-color: transparent;
+    border: 1.5px solid whitesmoke;
+    width: 50px;
+    color: white;
+    border-radius: 24px;
+    transition: .3s
+}
+
+#moreBtn:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .6);
+
+}
+
+.moreInfo{
+    max-width: 1200px;
+    font-size: 1.2em;
+    text-shadow: 3px 3px rgba(0, 0, 0, .6);
+}
