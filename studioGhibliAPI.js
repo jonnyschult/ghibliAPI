@@ -9,7 +9,7 @@ fetch(baseURL)
         console.log(response);
         return response.json();
     })
-    .then(function(json){
+    .then(function(json){ 
         displayResults(json)
     })
 
@@ -260,7 +260,7 @@ function displayResults(json) {
 
     //COLLAPSE CODE FOR infoContainer 
 
-    let moreOpen = false;
+    let moreOpen = false; 
 
     moreInfo.forEach(info => info.style.display = 'none');
 
